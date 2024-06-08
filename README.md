@@ -1,4 +1,3 @@
-```markdown
 # Comandos Git
 
 ## Identificando-se no Git:
@@ -61,5 +60,4 @@ git diff --staged
 Mostrar log de commits feitos:
 ```bash
 git log
-```
 ```
