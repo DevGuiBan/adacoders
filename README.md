@@ -37,7 +37,12 @@ git commit -m 'descrição do commit'
 
 Resgatar arquivos da área de Staged para Modified:
 ```bash
-git restore --staged .\ada-init.md
+git restore --staged .\ada-init.md (arquivo)
+```
+
+Restaurar modificações da área modified
+```bash
+git restore .\README.md (arquivo)
 ```
 
 ## Verificando status do repositório:
