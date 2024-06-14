@@ -61,3 +61,24 @@ Mostrar log de commits feitos:
 ```bash
 git log
 ```
+
+## Git Branchs
+
+Criar uma branch:
+```bash
+git branch test (nome da branch)
+```
+
+Indo para branch desejada:
+```bash
+git checkout test (nome da branch que deseja acessar)
+```
+
+## Git Mergin
+
+Obs: Usar os comandos na branch que receberá as alterações.
+
+Juntando a branch test com a master:
+```bash
+git merge test (nome da branch que será puxada)
+```
