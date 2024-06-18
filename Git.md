@@ -34,6 +34,16 @@ Passando de staged para commit:
 git commit -m 'descrição do commit'
 ```
 
+Mandando para o Git:
+```bash
+git push origin main (ou uma branch)
+```
+
+Trazendo do Git:
+```bash
+git pull origin main (ou uma branch)
+```
+
 Resgatar arquivos da área de Staged para Modified:
 ```bash
 git restore --staged .\ada-init.md (arquivo)
