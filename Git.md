@@ -59,6 +59,8 @@ Desfaz último commit local mantendo suas modificações
 git reset --soft HEAD~1
 ```
 
+OBS: Há também outra maneira mais manual, que seria ir diretamente na sua pasta .git e apagar o arquivo "index.lock"
+
 ## Verificando status do repositório:
 
 Mostrar todas as modificações feitas:
