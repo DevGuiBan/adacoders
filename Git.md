@@ -54,6 +54,11 @@ Restaurar modificações da área modified
 git restore .\README.md (arquivo)
 ```
 
+Desfaz último commit local mantendo suas modificações
+```bash
+git reset --soft HEAD~1
+```
+
 ## Verificando status do repositório:
 
 Mostrar todas as modificações feitas:
