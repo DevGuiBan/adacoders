@@ -29,5 +29,7 @@ public class AdaQ02 {
         }else if(media < 6){
             System.out.println("Reprovado!");
         }
+
+        scanner.close();
     }
 }

@@ -31,5 +31,7 @@ public class AdaQ03 {
         }
 
         System.out.println("Maior número é: " + maior);
+
+        scanner.close();
     }
 }

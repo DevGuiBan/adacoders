@@ -63,5 +63,7 @@ public class AdaQ04 {
                 System.out.println("Divisão por zero não permitida");
             }
         }
+
+        scanner.close();
     }
 }
