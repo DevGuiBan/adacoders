@@ -19,20 +19,20 @@ public class AdaQ04 {
         int num1;
         int num2;
         int result;
+        int operacoeMatematica;
 
         System.out.print("Número 1: ");
         num1 = scanner.nextInt();
         System.out.print("Número 2: ");
         num2 = scanner.nextInt();
 
-        int operacoeMatematica;
 
         System.out.println("1 -> +");
         System.out.println("2 -> -");
         System.out.println("3 -> *");
         System.out.println("4 -> /");
 
-        System.out.println("Digite a operação desejada: ");
+        System.out.print("Digite a operação desejada: ");
         operacoeMatematica = scanner.nextInt();
 
         String operacaoDesejada = switch (operacoeMatematica){

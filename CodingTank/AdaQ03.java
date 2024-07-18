@@ -14,6 +14,7 @@ public class AdaQ03 {
         int num3;
 
         int maior = 0;
+        int maiorTernario;
 
         System.out.print("numero1: ");
         num1 = scanner.nextInt();
@@ -31,6 +32,10 @@ public class AdaQ03 {
         }
 
         System.out.println("Maior número é: " + maior);
+
+        maiorTernario = (num1 > num2 ? num1 : num2) > num3 ? (num1 > num2 ? num1 : num2) : num3;
+
+        System.out.println("Maior modo ternário: " + maiorTernario);
 
         scanner.close();
     }
