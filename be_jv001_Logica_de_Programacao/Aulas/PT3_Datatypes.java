@@ -1,4 +1,4 @@
-package be_jv001_Logica_de_Programacao.Aula1;
+package be_jv001_Logica_de_Programacao.Aulas;
 
 public class PT3_Datatypes {
     public static void main(String[] args) {
@@ -6,12 +6,15 @@ public class PT3_Datatypes {
         // Inteiros
         byte numByte = 1; //1 byte | -128 a 127
         short numShort = 2; // 2 bytes | -32768 a 32767
+        int numInt = 3; // 4 bytes | numeros muito grandes ;----;
         long numLong = 4L; // 8 bytes | numeros muito grandes ;----;
         long numLong2 = 7_800_800_000L;
 
         // BigDecimal
 
         /*
+         *
+         *
          * Alta Precisão: BigDecimal permite realizar cálculos com precisão muito alta,
          * o que é crucial para aplicações financeiras e científicas
          * onde erros de arredondamento são inaceitáveis.
@@ -22,8 +25,9 @@ public class PT3_Datatypes {
         double numDouble = 2.0; // 8 bytes | 15 digitos decimais significativos
 
         //Especiais
-        boolean typeBool = true; // Só pode receber 2 valores;
-        boolean typeBool2 = false; // verdadeiro ou falso
+        boolean typeBool = true; //1 | -128 a 127 (byte Só pode receber 2 valores),
+        boolean typeBool2 = false; // verdadeiro ou falso.
+        char typeChar = 'A';
 
 
         //'final'
@@ -45,7 +49,7 @@ public class PT3_Datatypes {
          * enquanto o tipo primitivo int não pode.
          * Isso é útil em situações onde um valor inteiro pode não estar presente ou ser desconhecido,
          * pois o tipo primitivo int sempre tem um valor padrão de 0, em sistemas de alta precisão,
-         * receber um valor errado pode gerar grandes custos.
+         * receber um valor errado pode gerar grandes problemas.
          */
         Integer object;
     }

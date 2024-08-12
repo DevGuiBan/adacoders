@@ -28,5 +28,7 @@ public class Quest01 {
         profissao = input.nextLine();
 
         System.out.printf("Nome: %s%nIdade: %d%nProfissão: %s", nome, idade, profissao);
+
+        input.close();
     }
 }

@@ -1,4 +1,4 @@
-package be_jv001_Logica_de_Programacao.Aula1;
+package be_jv001_Logica_de_Programacao.Aulas;
 
 import java.util.Scanner;
 

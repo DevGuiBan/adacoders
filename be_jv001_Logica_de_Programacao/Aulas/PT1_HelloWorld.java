@@ -1,4 +1,4 @@
-package be_jv001_Logica_de_Programacao.Aula1;
+package be_jv001_Logica_de_Programacao.Aulas;
 
 public class PT1_HelloWorld {
     public static void main(String[] args){
